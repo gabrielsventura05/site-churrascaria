@@ -1,0 +1,23 @@
+#sobre h1 {
+    color: #f1c70a;
+    font-size: 50px;
+  }
+  
+  .sobre-conteudo h2 {
+    font-family: Arial;
+    color: #f4f1cb;
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+
+  .fotos-churrascaria {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg);
+    padding-top: 50px;
+  }
+
+  #cozinha h1 {
+
+    color: #f1c70a;
+    font-size: 50px;
+  }

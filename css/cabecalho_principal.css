@@ -1,0 +1,106 @@
+header {
+    min-height: calc(100vh - 94px);
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(200,0,0,0.3)), url('../img/churrasco2.jpg');
+      background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .row-bn {
+    min-height: calc(100vh - 94px);
+  }
+  
+  .banner h1 {
+    border-top: 6px dotted #f0db00;
+    border-bottom: 6px dotted #f0db00;
+    
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+
+  .banner h1 small {
+    color: #f4f1cb;
+    font-family: "Lobster", cursive;
+  }
+  
+  .banner h1 strong {
+    color: #f1c70a;
+    font-family: "Lobster", cursive;
+  }
+  
+  .pedir-btn {
+    color: #f4f1cb;
+    background: #391005;
+    font-size: 2rem;
+    border: 2px solid #f1c70a;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+
+  .pedir-btn:hover {
+    color: #7E1819;
+    border: 2px solid #731819;
+    background: #f1c70a;
+  }
+
+  .btn-adiante {
+    display: inline-block;
+    position: absolute;
+    bottom: 5%;
+    left: 49%;
+    color: #391005;
+    background: #ffae58;
+    border-radius: 10px;
+    -webkit-transition: all 0.5 ease;
+    transition: all 0.5 ease;
+    -webkit-animation: paraBaixo;
+            animation: paraBaixo;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+
+  .btn-adiante:hover {
+    background: #f0db00;
+    color: #391005;
+  }
+
+  @keyframes paraBaixo {
+    0% {
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px);
+    }
+    50% {
+      -webkit-transform: translateY(15px);
+              transform: translateY(15px);
+    }
+    100% {
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px);
+    }
+  }
+
+  @keyframes paraBaixo {
+    0% {
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px);
+    }
+    50% {
+      -webkit-transform: translateY(10px);
+              transform: translateY(10px);
+    }
+    100% {
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px);
+    }
+  }
+
+  

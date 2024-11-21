@@ -1,0 +1,48 @@
+
+footer {
+    background-color: #391005;
+}
+
+
+.footer a {
+
+    color: #ffae58;
+}
+
+.footer a:hover {
+
+    color: #9F492F;
+}
+.footer #copyright {
+
+    margin-right: 2%;
+}
+
+.footer #copyright a {
+    
+    font-family: "Lobster", cursive;
+    color: #f4f1cb;
+    font-size: 1.3rem;
+  }
+
+  #copyright a {
+    text-decoration: none;
+  }
+  
+  #voltar-topo {
+    color: #9F492F;
+   
+    display: inline-block;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+  }
+
+  #voltar-topo:hover {
+    color: #f1c70a;
+  }
+  
+  .scrollTop {
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+  }

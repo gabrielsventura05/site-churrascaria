@@ -1,0 +1,24 @@
+.recomendacao-item {
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%);
+            clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%);
+  }
+  
+  .recomendacao-item img {
+    width: 150px;
+  }
+
+  .recomendacao-nome {
+    color: #f4f1cb;
+    font-family: "Lobster", cursive;
+  }
+  
+  .recomendacao-texto {
+    font-family: Arial;
+    text-align: justify;
+  }
+  
+  #recomendacoes h1 {
+    font-family: "Lobster", cursive;
+    color: #f4f1cb;
+  }

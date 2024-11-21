@@ -1,0 +1,25 @@
+.info {
+    background: #391005;
+  }
+  
+  .info a {
+    color: #ffae58;
+    -webkit-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .info a:hover {
+    color: #c94118;
+  }
+  
+  #logo {
+    font-family: "Lobster", cursive;
+  
+    color: #ffae58;
+    margin-right: 2%;
+  }
+  
+  #logo a {
+    text-decoration: none;
+  }
+  
